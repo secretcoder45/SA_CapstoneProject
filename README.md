@@ -45,7 +45,7 @@ All daily pricing outputs for 14 unique parking lots are included:
 ## 📄 Report
 
 
-The final [report.pdf](./report.pdf) explains:
+The final [report.pdf](./SA_Capstone_report.pdf) explains:
 - Dataset and preprocessing
 - Assumptions and pricing logic
 - Comparison between both models
