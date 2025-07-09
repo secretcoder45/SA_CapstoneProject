@@ -31,6 +31,10 @@ Final price is calculated and **rounded to 1 decimal place**.
 - **Streaming Engine:** [Pathway](https://pathway.com/)
 - **Visualization:** [Bokeh](https://docs.bokeh.org/) + [Panel](https://panel.holoviz.org/)
 - **Report:** Written in LaTeX
+- **Mermaid:** Flowchart Architecture
+
+## 🛠 Mermaid Live Diagram
+![Untitled diagram _ Mermaid Chart-2025-07-09-184411](https://github.com/user-attachments/assets/1ceff262-3b91-4cbf-944f-8dd5d4bb8c86)
 
 ## 📊 Visualizations
 
@@ -39,6 +43,7 @@ All daily pricing outputs for 14 unique parking lots are included:
 - `model_2_plots/2_lot_1.png` to `2_lot_14.png`
 
 ## 📄 Report
+
 
 The final [report.pdf](./report.pdf) explains:
 - Dataset and preprocessing
@@ -55,6 +60,7 @@ The final [report.pdf](./report.pdf) explains:
 2.	Open the Jupyter/Colab notebook: notebook.ipynb
 3.	Install required packages: pip install pathway bokeh panel
 4.	Run the cells to:
+
 	•	Clean the dataset
 	•	Replay it with Pathway
 	•	Compute pricing
