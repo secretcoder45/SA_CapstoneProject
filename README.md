@@ -3,18 +3,21 @@
 This project implements real-time dynamic pricing for urban parking lots using **stream processing (Pathway)** and **interactive visualizations (Bokeh + Panel)**. It models how parking prices should adjust based on demand signals such as occupancy, queue length, traffic, and special events.
 
 ## 📁 Project Structure
-├── dataset.csv                 # Original dataset with parking lot data
-├── SA_Model_1.csv              # Model 1 code
-├── SA_Model_2.ipynb            # Model 2 code
-├── README.md                   # This file
+├── dataset.csv                 
+├── SA_Model_1.csv              
+├── SA_Model_2.ipynb            
+├── README.md                   
 
 ## 📈 Models Implemented
 
 ### Model 1: Rule-Based Incremental Pricing
-Price is updated once per day per lot:
-Priceₜ = BasePrice + α × (Occupancy / Capacity)
-or
-Priceₜ = Priceₜ₋₁ + α × (Occupancy / Capacity)
+Price is updated once per day per lot:  
+
+Priceₜ = BasePrice + α × (Occupancy / Capacity)  
+
+or  
+
+Priceₜ = Priceₜ₋₁ + α × (Occupancy / Capacity)  
 
 ### Model 2: Continuous Demand-Based Pricing
 Price responds to a weighted demand function of:
@@ -23,7 +26,6 @@ Price responds to a weighted demand function of:
 - Traffic Conditions
 - Special Day Indicator
 
-Final price is calculated and **rounded to 1 decimal place**.
 
 ## 🛠 Tech Stack
 
@@ -33,7 +35,7 @@ Final price is calculated and **rounded to 1 decimal place**.
 - **Report:** Written in LaTeX
 - **Mermaid:** Flowchart Architecture
 
-## 🛠 Mermaid Live Diagram
+## 📊 Mermaid Live Diagram
 ![Untitled diagram _ Mermaid Chart-2025-07-09-184411](https://github.com/user-attachments/assets/1ceff262-3b91-4cbf-944f-8dd5d4bb8c86)
 
 ## 📊 Visualizations
@@ -68,7 +70,7 @@ The final [report.pdf](./SA_Capstone_report.pdf) explains:
 
 📬 Contact
 
-Author: Palash Garg
-Institute: IIT Guwahati
-📧 palashgarg45@gmail.com
+Author: Palash Garg  
+Institute: IIT Guwahati  
+📧 palashgarg45@gmail.com  
 📎 LinkedIn: https://www.linkedin.com/in/palash-garg-003014345/
